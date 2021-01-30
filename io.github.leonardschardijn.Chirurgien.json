@@ -40,8 +40,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/leonardschardijn/Chirurgien.git",
-                    "tag": "v0.3",
-                    "commit": "7b4c7a1c015cf4eca578fcf1608823d6af1d6a11"
+                    "tag": "v0.4",
+                    "commit": "edf6dbbf40f9d8b8ef2817667dda5baabb95ca61"
                 }
             ]
         }
