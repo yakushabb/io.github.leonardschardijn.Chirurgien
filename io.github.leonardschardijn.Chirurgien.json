@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.leonardschardijn.Chirurgien",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "chirurgien",
     "finish-args" : [
@@ -30,8 +30,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/leonardschardijn/Chirurgien.git",
-                    "tag": "v1.1",
-                    "commit": "10da91c4354afd65c7cee9f11d26fcc10d158c2f"
+                    "tag": "v1.2",
+                    "commit": "b6310bfd1fdc075f2f38dc10c31824fe4f8488ab"
                 }
             ]
         }
