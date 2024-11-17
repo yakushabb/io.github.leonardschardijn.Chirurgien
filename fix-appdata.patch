@@ -1,0 +1,53 @@
+From 22e91712aea6cc9da2ae7256cfd8c741083fb83f Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sun, 17 Nov 2024 23:15:27 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+Fix some issues.
+---
+ data/io.github.leonardschardijn.Chirurgien.appdata.xml.in | 17 +++++++++++++----
+ 1 file changed, 13 insertions(+), 4 deletions(-)
+
+diff --git a/data/io.github.leonardschardijn.Chirurgien.appdata.xml.in b/data/io.github.leonardschardijn.Chirurgien.appdata.xml.in
+index 57a6a20..b5f1087 100644
+--- a/data/io.github.leonardschardijn.Chirurgien.appdata.xml.in
++++ b/data/io.github.leonardschardijn.Chirurgien.appdata.xml.in
+@@ -1,13 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<component type="desktop">
+-  <id>io.github.leonardschardijn.Chirurgien.desktop</id>
++<component type="desktop-application">
++  <id>io.github.leonardschardijn.Chirurgien</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0-or-later</project_license>
+   <name>Chirurgien</name>
+   <summary>Understand and manipulate binary file formats</summary>
+   <description>
+     <p>
+-      <em>Chirurgien</em> is a hex editor and an essential tool for reverse engineering, analyzing, and carving binary file formats.
++      Chirurgien is a hex editor and an essential tool for reverse engineering, analyzing, and carving binary file formats.
+     </p>
+     <p>Features:</p>
+     <ul>
+@@ -32,8 +32,17 @@
+       <image>https://raw.githubusercontent.com/leonardschardijn/Chirurgien/master/data/screenshot4.png</image>
+     </screenshot>
+   </screenshots>
+-  <url type="homepage">https://github.com/leonardschardijn/Chirurgien#readme</url>
++  <url type="homepage">https://github.com/leonardschardijn/Chirurgien</url>x
++  <url type="bugtracker">https://github.com/leonardschardijn/Chirurgien/issues</url>
++  <url type="vcs-browser">https://github.com/leonardschardijn/Chirurgien</url>
+   <developer_name>Daniel Léonard Schardijn</developer_name>
++  <provides>
++    <id>io.github.leonardschardijn.Chirurgien.desktop</id>
++  </provides>
++  <replaces>
++    <id>io.github.leonardschardijn.Chirurgien.desktop</id>
++  </replaces>
++  <launchable type="desktop-id">io.github.leonardschardijn.Chirurgien.desktop</launchable>
+   <content_rating type="oars-1.1"/>
+   <releases>
+     <release version="2.2" date="2023-02-24"/>
+--
+libgit2 1.7.2
+

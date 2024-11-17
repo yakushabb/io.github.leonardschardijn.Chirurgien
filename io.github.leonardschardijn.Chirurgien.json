@@ -32,6 +32,10 @@
                     "url": "https://github.com/leonardschardijn/Chirurgien.git",
                     "tag": "v2.2",
                     "commit": "b1c5f3f15d165bf0cedc9d65dcdbb55974e94a11"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
